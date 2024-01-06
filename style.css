@@ -1,0 +1,57 @@
+body {
+    padding: 0;
+    margin: 40px;
+    border: 0;
+}
+
+header h1 {
+    text-align: center;
+}
+
+.header_line {
+    width: 99%;
+    height: 2px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.mars_vacation {
+    width: 80%;
+    height: 35em;
+}
+
+.text_box {
+   height: 7rem; 
+}
+
+.social_media_box {
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.social_media_img_facebook {
+    width: 40px;
+    height: 40px;
+}
+
+.social_media_img {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    transition: transform 0.8s;
+}
+
+.social_media_img:hover {
+    transition: scale(3);
+}
+
+.social_media_img:hover::after {
+    content: attr(id);
+    border-radius: 5px;
+    bottom: 50px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+}

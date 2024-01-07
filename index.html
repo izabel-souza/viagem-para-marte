@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
         <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
     </head>
 
     <body>
@@ -29,7 +30,9 @@
 
         <main>
             <section>
-                    <img src="/imagens/viagem marte.jpg" alt="mars vacation" class="mars_vacation">
+                <div>
+                    <img src="./imagens/viagem_marte.jpg" alt="mars vacation" class="mars_vacation">
+                </div>
     
                     <div class="text_box">
                         <p class="main_text">
@@ -54,24 +57,39 @@
 
                 </div>
 
-                <div>
-                    <h2>O que necessito para viajar</h2>
-                    <h3>Para viajar para Marte vai ser necessário:</h3>
-                    <ul>
-                        <li>Exames médicos gerais</li>
-                        <li>Duas semenas de treino especializado</li>
-                        <li>Passaporte interestelar válido</li>
-                        <li>Assinar termo de responsabilidade</li>
-                    </ul>
+                <h2>O que necessito para viajar</h2>
 
-                    <h3>Procedimentos antes da viagem:</h3>
-                    <ol>
-                        <li>Escolher data da viagem</li>
-                        <li>Realizar exames médicos necessários</li>
-                        <li>Efetuar pagamento de 50% do valor da viagem</li>
-                        <li>Participar nas duas semanas de treino especializado</li>
-                        <li>Assinar termo de responsabilidade</li>
-                    </ol>
+                <div class="list_box">
+
+                    <div>
+                        <div>
+                            <h3>Para viajar para Marte vai ser necessário:</h3>
+                        </div>
+    
+                        <button class="dropdown_menu_button" onClick="drop_function()"></button>   
+                    </div>
+                    
+                    <div>
+                        <div class="dropdown_menu_box" id="dropdown">
+                            <a href=""> Exames médicos gerais</a>
+                            <a href=""> Duas semenas de treino especializado</a>
+                            <a href=""> Passaporte interestelar válido</a>
+                            <a href=""> Assinar termo de responsabilidade</a>
+                        </div>
+                    </div>
+
+                    <div>
+
+                        <h3>Procedimentos antes da viagem:</h3>
+                        <button class="dropdown_menu_button" onClick="drop_function()"></button>
+                        <div class="dropdown_menu_box" id="dropdown">
+                            <a href="">Escolher data da viagem</a>
+                            <a href="">Realizar exames médicos necessários</a>
+                            <a href="">Efetuar pagamento de 50% do valor da viagem</a>
+                            <a href="">Participar nas duas semanas de treino especializado</a>
+                            <a href="">Assinar termo de responsabilidade</a>
+                        </div>
+                    </div>
 
                 </div>
             </section>
@@ -90,11 +108,12 @@
                     <p>Para mais informações:</p>
 
                     <div class="social_media_box">
-                        <img src="/imagens/facebook logo.png" alt="facebook logo" class="social_media_img_facebook" id="Facebook"/>
 
-                        <img src="/imagens/youtube logo.png" alt="youtube logo" class="social_media_img" id="YouTube"/>
+                        <img src="./imagens/facebook_logo.png" alt="facebook logo" class="social_media_img_facebook" title="facebook" />
 
-                        <img src="/imagens/instagram logo.png" alt=" instagram logo" class="social_media_img" id="Instagram"/>
+                        <img src="./imagens/youtube_logo.png" alt="youtube logo" class="social_media_img" title="youtube"/>
+
+                        <img src="./imagens/instagram_logo.png" alt="instagram logo" class="social_media_img" title="instagram"/>
                     </div>
 
                 </div>

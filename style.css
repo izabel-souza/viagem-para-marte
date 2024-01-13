@@ -35,13 +35,13 @@ main {
     justify-content: space-around;
 }
 
-.dropdown_menu_button {
+.dropdown_menu_button, .dropdown_menu_button_2 {
     height: 15px;
     border-radius: 100%;
     cursor: pointer;
 }
 
-.dropdown_menu_box {
+.dropdown_menu_box, .dropdown_menu_box_2 {
     display: none;
     position: absolute;
     background-color: white;
@@ -49,7 +49,7 @@ main {
     z-index: 1;
 }
 
-.dropdown_menu_box a {
+.dropdown_menu_box a, .dropdown_menu_button_2 a {
     display: block;
     float: none;
     text-decoration: none;

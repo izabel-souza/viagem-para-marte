@@ -49,7 +49,7 @@ main {
     z-index: 1;
 }
 
-.dropdown_menu_box a, .dropdown_menu_button_2 a {
+.dropdown_menu_box p, .dropdown_menu_button_2 p {
     display: block;
     float: none;
     text-decoration: none;
